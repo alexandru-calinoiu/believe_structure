@@ -10,6 +10,7 @@ defmodule BeliefStructure do
     "package_ex"
   """
 
+  @spec hexify(String.t()) :: String.t()
   def hexify(package) do
     case String.ends_with?(package, "ex") do
       true -> package

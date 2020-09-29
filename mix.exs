@@ -1,6 +1,8 @@
 defmodule BeliefStructure.MixProject do
   use Mix.Project
 
+  @moduledoc false
+
   def project do
     [
       app: :belief_structure,
